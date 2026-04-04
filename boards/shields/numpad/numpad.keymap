@@ -6,7 +6,7 @@
     keymap {
         compatible = "zmk,keymap";
         default_layer {
-              display-name = "Default Layer";
+              display-name = "Default";
             bindings = <
                 &lt 1 KP_ENTER  &kp KP_SLASH    &kp KP_ASTERISK &kp KP_MINUS
                 &kp KP_NUMBER_7 &kp KP_NUMBER_8 &kp KP_NUMBER_9 
@@ -16,10 +16,10 @@
             >;
         };
         func_layer {
-               display-name = "Func Layer";
+               display-name = "Func";
              bindings = <
                 &none           &none           &none      &bootloader
-                &none           &none          &none    
+                &none           &none           &none    
                 &none           &none           &none      &none
                 &none           &none           &none    
                                 &none           &none      &none
