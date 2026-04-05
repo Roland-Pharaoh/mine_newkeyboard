@@ -1,0 +1,8 @@
+file_format: "1"
+id: numpad
+name: numpad
+type: shield
+url: https://github.com/Roland-Pharaoh/mine_newkeyboard
+requires: [pro_micro]
+features:
+  - keys
