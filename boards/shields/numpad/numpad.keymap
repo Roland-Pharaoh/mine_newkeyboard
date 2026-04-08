@@ -23,7 +23,7 @@
             bindings = <
                 &none           &none           &sys_reset      &bootloader
                 &out OUT_TOG    &out OUT_USB    &out OUT_BLE
-                &bt BT_CLR      &none           &none           &none
+                &rgb_ug TOGGLE  &none           &none           &none
                 &none           &none           &none
                                 &none           &none           &none
             >;
