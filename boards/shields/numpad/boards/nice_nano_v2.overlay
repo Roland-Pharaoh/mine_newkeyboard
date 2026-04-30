@@ -69,7 +69,7 @@
 
         gpio-controller;
         #gpio-cells = <2>;
-        ngpios = <8>;
+        ngpios = <16>;
     };
 };
 
