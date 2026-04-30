@@ -62,10 +62,10 @@
     pinctrl-names = "default","sleep";
 
     shiftreg: 595@0 {
-        compatible = "zmk, gpio-595";
+        compatible = "zmk,gpio-595";
         reg = <0>;
         status = "okay";
-        spi-max-frequency = <200000>;
+        spi-max-frequency = <2000000>;
 
         gpio-controller;
         #gpio-cells = <2>;

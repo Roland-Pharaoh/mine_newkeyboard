@@ -15,10 +15,10 @@
             ;
 
         col-gpios
-            = <&shiftreg 0 (GPIO_ACTIVE_HIGH)>
-            , <&shiftreg 1 (GPIO_ACTIVE_HIGH)>
-            , <&shiftreg 2 (GPIO_ACTIVE_HIGH)>
-            , <&shiftreg 3 (GPIO_ACTIVE_HIGH)>
+            = <&shiftreg 0 GPIO_ACTIVE_HIGH>
+            , <&shiftreg 1 GPIO_ACTIVE_HIGH>
+            , <&shiftreg 2 GPIO_ACTIVE_HIGH>
+            , <&shiftreg 3 GPIO_ACTIVE_HIGH>
             ;
     };
 
