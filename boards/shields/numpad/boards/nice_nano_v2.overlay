@@ -64,6 +64,7 @@
     shiftreg: 595@0 {
         compatible = "zmk, gpio-595";
         reg = <0>;
+        status = "okay";
         spi-max-frequency = <200000>;
 
         gpio-controller;
